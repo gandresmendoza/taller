@@ -1,0 +1,56 @@
+.ppal{
+    margin: 10px 20px 10px 20px;
+    padding: auto;
+    /* background-color: hotpink; */
+    border: 2px solid orange;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 15fr;
+}
+
+    .menu1{
+        grid-column: span 12;
+        background-color: #b2ebf2;
+        border: 1px solid black;
+    }
+
+    .conte{
+        grid-column: span 12;
+        border: 1px solid #ff5722;
+    }
+
+        .conte1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #ff5722;
+            text-shadow: 2px 1px;
+            font-size: 120%;
+            text-align: center;
+        }
+
+            .parraf{
+                text-align: justify;
+            }
+
+    .piepa1{
+        grid-column: span 12;
+        border: 2px solid red;
+        background-color: #dd2c00;
+        color: honeydew;
+        
+        display: flex;
+        align-items: center;
+    }
+        
+        .copir1{
+            flex: 3;
+            text-align: center;
+        }
+        
+        .direc1{
+            flex: 9;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: whitesmoke;
+            text-shadow: 2px 1px;
+        }
